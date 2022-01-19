@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="pt-BR">
+    <title>Juciê Barbershop</title>
+    <meta name="description" content="Venha cortar seu cabelo e comprar produtos na melhor barbearia de Nova Russas!">
+    <meta name="robots" content="index">
+    <meta name="author" content="Júnior Barbeiro">
+    <meta name="keywords" content="juciê, jucie, junior, junior barbeiro, barbershop, jucie barbershop, nova russas, barbeiro, serviços, barbearia, produtos, cabeleireiro, cabelo, barba, cortar cabelo">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+
+</head>
+
+<body>
+  <div class="container">
+    <!--LOGO AND SLOGAN-->
+    <div class="slogan-logo">
+      <img src="Images/logo.png" alt="logo" />
+      <p>Atendimento com qualidade<br />e excelência!</p>
+     </div>
+
+    <!--BUTTONS-->
+    <div class="buttons">
+      <button id="products" class="btn">
+        <i class="fas fa-shopping-bag"></i>
+        <span>Produtos</span>
+      </button>
+      
+      <button id="services" class="btn">
+        <i class="fas fa-cut"></i>
+        <span>Serviços</span>
+      </button>
+      
+      <button id="loc" class="btn" onclick="showLocation()">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Localização</span>
+      </button>
+
+      <button id="wpp" class="btn">
+        <i class="fab fa-whatsapp"></i>
+        <span>WhatsApp</span>
+      </button>
+                
+      <button class="btn" id="ig">
+        <i class="fab fa-instagram"></i>
+        <span>Instagram</span>
+      </button>
+               
+      <button id="yt" class="btn">
+        <i class="fab fa-youtube"></i>
+        <span>YouTube</span>
+      </button>        
+      
+      <button id="fb" class="btn">
+        <i class="fab fa-facebook"></i>
+        <span>Facebook</span>
+      </button>
+               
+      </div>
+    </div>
+    
+    <script src="/__/firebase/8.6.2/firebase-app.js"></script>
+    <script src="/__/firebase/8.6.2/firebase-analytics.js"></script>
+    <script src="/__/firebase/init.js"></script>
+  
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="script.js"></script>
+  
+</body>
+
+</html>

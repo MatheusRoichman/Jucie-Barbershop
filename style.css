@@ -1,0 +1,154 @@
+/* FONTS AND ICONS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+  
+/* GLOBAL */
+  
+  * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-align: center;
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+    background: url("Images/bg.png") center center;
+    background-size: cover;
+  }
+  .container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  /* HEADER */
+  .slogan-logo img{
+    max-width: 60vw;
+    max-height: 40vh;
+  }
+  .small-logo {
+    max-width: 45vw;
+    max-height: 25vh;
+  }
+  .slogan-logo p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1.4rem;
+  }
+  .catalog-head {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.625rem;
+    font-weight: 700;
+    margin-top: 8vh;
+  }
+  #catalog-head p {
+    margin: 25px auto;
+  }
+  
+  /* BUTTONS */
+  .buttons {
+    margin-top: 20px;
+  }
+  .buttons .btn{
+    width: 14rem;
+    padding: 0 35px; 
+    height: 3.5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    transition: .5s;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  .btn:hover {
+    box-shadow: 5px 7px 3px -1px rgba(0,0,0,.7);
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  .btn span {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+  } 
+  a{
+    text-decoration: none;
+  }
+  #wpp {
+    background: #25D366;
+  }
+  #ig {
+    background: #FF0075;
+  } 
+  #yt {
+    background: #FF0000;
+  }
+  #fb {
+    background: #1778F2;
+  }
+  #services {
+    background: #3D98FF;
+  }
+  #products {
+    background: #00BD85;
+  }
+  #loc {
+    background: #EA5B5B;
+  }
+  #home {
+    color: white;
+    position: fixed;
+    display: flex;
+    margin: -30px 15px 0;
+  }
+  #home span {
+    margin-left: 7px;
+  }
+  .fab, .fas{
+    font-size: 1.5rem;
+  }
+  
+  /* ITEMS AND PRICES */
+  
+  .container-prods{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+  }
+  
+  .items {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid gray;
+  }
+  
+  .items:nth-child(1) {
+    margin-top: 25px;
+  }
+  
+  .under-10 {
+       margin-right: 12px;
+  }

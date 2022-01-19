@@ -1,0 +1,47 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 24.5rem;
+  margin: 15px;
+  color: black;
+}
+
+.card-title {
+  margin-bottom: 4px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.img-card-top {
+  width: 200px;
+  height: 150px; 
+}
+
+.higher, .larger {
+  width: 130px;
+}
+
+.larger {
+  height: 130px;
+}
+
+.text-muted {
+  margin-top: -10px;
+}
+
+.item-list {
+  margin-top: 25px;
+}
+
+.dropdown-toggle {
+  margin-top: 15px;
+}
